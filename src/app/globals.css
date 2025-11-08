@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Merriweather', Georgia, serif;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-cream text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply bg-primary hover:bg-rust text-cream font-bold py-3 px-8 rounded transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 uppercase tracking-wide text-sm border-2 border-primary hover:border-rust;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary hover:bg-accent text-white font-bold py-3 px-8 rounded transition-all duration-200 shadow-md hover:shadow-lg uppercase tracking-wide text-sm border-2 border-secondary hover:border-accent;
+  }
+  
+  .card {
+    @apply bg-white rounded-sm shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border-2 border-tan/30;
+  }
+  
+  .rustic-heading {
+    @apply font-display font-bold text-primary tracking-tight;
+  }
+  
+  .texas-border {
+    @apply border-4 border-double border-primary/30 p-6;
+  }
+}
