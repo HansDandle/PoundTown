@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'About Pound Town, Texas - Honoring Dripping Springs Founders',
-  description: 'Learn about Pound Town, Texas and our mission to honor Dr. Joseph and Sarah Pound, the founders of Dripping Springs, TX 78620. Discover our unique gifts and local Texas merchandise.',
+  title: 'About Pound Town, Texas - Dr. Pound\'s Legacy & History',
+  description: 'Discover the remarkable story of Dr. Joseph and Sarah Pound, the founders of Dripping Springs, TX 78620. Learn about their pioneer spirit, medical service, and lasting impact on the Texas Hill Country.',
 }
 
 export default function AboutPage() {
@@ -34,10 +34,10 @@ export default function AboutPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
             <p className="text-gray-700 mb-4">
-              Pound Town, Texas represents an initiative to rename Dripping Springs, TX 
-              in order to honor the memory of Dr. Joseph and Sarah Pound, the town's 
-              original founders. Through our unique gifts and merchandise, we celebrate 
-              the rich history of Dripping Springs and the Hill Country.
+              Pound Town, Texas celebrates the legacy of Dr. Joseph and Sarah Pound, 
+              the pioneering founders of what is now known as Dripping Springs in the 
+              Texas Hill Country. This movement honors their extraordinary contributions 
+              to community building, medical service, and respectful stewardship.
             </p>
           </section>
 
@@ -83,28 +83,25 @@ export default function AboutPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-4">Why Dripping Springs?</h2>
             <p className="text-gray-700 mb-4">
-              Located in the beautiful Texas Hill Country at ZIP code 78620, Dripping 
-              Springs has grown from a small pioneer settlement to a thriving community. 
-              Our gifts and merchandise celebrate this heritage while supporting local 
-              Texas culture.
+              Dripping Springs, located in the Texas Hill Country at ZIP code 78620, was 
+              founded on the principles Dr. Pound established: service to the community, 
+              medical care, spiritual leadership, and education. These values continue 
+              to define the character of this historic region today.
             </p>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-4">Shop Local Gifts</h2>
+            <h2 className="text-3xl font-bold mb-4">The Renaming Movement</h2>
             <p className="text-gray-700 mb-6">
-              Every purchase supports our mission to preserve and celebrate the history 
-              of Dripping Springs, Texas. Browse our selection of unique gifts perfect 
-              for holidays, birthdays, and special occasions.
+              In 2019, a petition gained significant attention to rename Dripping Springs 
+              to "Pound Town" in recognition of the Pound family's foundational role. 
+              While Texas state law presented legal obstacles, the movement continues to 
+              celebrate and honor their lasting legacy.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a href="/shop" className="btn-primary text-center">
-                Browse Gift Shop
-              </a>
-              <a href="/blog" className="btn-secondary text-center">
-                Read Our Blog
-              </a>
-            </div>
+            <p className="text-gray-700">
+              This website serves as a tribute to Dr. Joseph Pound's pioneering spirit 
+              and the enduring impact of his service to the Hill Country community.
+            </p>
           </section>
         </div>
       </div>
@@ -119,26 +116,26 @@ export default function AboutPage() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "What is Pound Town, Texas?",
+                "name": "Who was Dr. Joseph Pound?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Pound Town, Texas is an initiative to honor Dr. Joseph and Sarah Pound, the founders of Dripping Springs, TX. We offer unique gifts and merchandise celebrating the rich history of the Texas Hill Country."
+                  "text": "Dr. Joseph Pound was the earliest doctor in Hays County and the founder of what is now Dripping Springs, Texas. His home served as a medical office, hospital, church, schoolhouse, and community gathering place."
                 }
               },
               {
                 "@type": "Question",
-                "name": "Where is Pound Town located?",
+                "name": "What is the Pound Town movement?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Pound Town represents Dripping Springs, Texas, located in the Hill Country at ZIP code 78620."
+                  "text": "Pound Town is an initiative to honor Dr. Joseph and Sarah Pound by renaming Dripping Springs, Texas after them. While facing legal obstacles, the movement continues to celebrate their pioneering legacy."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What kind of gifts do you offer?",
+                "name": "Where is Dripping Springs, Texas?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We offer unique local Texas gifts, holiday presents, apparel, home decor, and exclusive merchandise celebrating Dripping Springs and Texas Hill Country culture."
+                  "text": "Dripping Springs is located in the Texas Hill Country at ZIP code 78620, in Hays County. It was founded by Dr. Joseph and Sarah Pound in the 1800s."
                 }
               }
             ]

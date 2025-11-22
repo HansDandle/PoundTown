@@ -18,18 +18,18 @@ export default function Home() {
                 Welcome to Pound Town, TX
               </h1>
               <p className="text-xl md:text-2xl mb-6 text-cream/90">
-                Unique Gifts & Exclusive Merch from the Heart of Texas
+                Honoring the Founders & History of Dripping Springs
               </p>
               <p className="text-lg mb-8 text-cream/80">
-                Perfect holiday gifts, birthday presents, and special occasion merchandise.
-                Shop local Texas gifts that celebrate our community!
+                Discover the legacy of Dr. Joseph and Sarah Pound, the pioneering spirit
+                that built our community, and the rich history of Dripping Springs, Texas.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Link href="/shop" className="btn-primary inline-block">
-                  Shop Gifts Now
-                </Link>
-                <Link href="/about" className="btn-secondary inline-block">
+                <Link href="/about" className="btn-primary inline-block">
                   Learn Our Story
+                </Link>
+                <Link href="/blog" className="btn-secondary inline-block">
+                  Explore the Lore
                 </Link>
               </div>
             </div>
@@ -56,25 +56,43 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Shop */}
+      {/* The Pound Family Legacy */}
       <section className="py-16 bg-tan/20">
         <div className="container-custom">
           <h2 className="text-3xl md:text-4xl rustic-heading text-center mb-4">
-            Shop:
+            The Pound Family Legacy
           </h2>
           <div className="text-center mb-12">
             <div className="inline-block h-1 w-24 bg-primary rounded"></div>
           </div>
-          <div className="max-w-4xl mx-auto">
-            <Link href={process.env.NEXT_PUBLIC_PRINTFUL_STORE_URL || 'https://poundtown.printful.me/'} target="_blank" rel="noopener noreferrer" className="block hover:opacity-90 transition-opacity">
-              <Image 
-                src="/images/store-offerings.png"
-                alt="Shop Our Products"
-                width={1200}
-                height={800}
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
-            </Link>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="card">
+              <div className="p-6 bg-gradient-to-br from-white to-tan/10">
+                <div className="text-5xl mb-4">🏥</div>
+                <h3 className="text-2xl font-bold mb-3 text-primary">Pioneer Physician</h3>
+                <p className="text-gray-700">
+                  Dr. Joseph Pound was the earliest doctor in Hays County, providing essential medical care to the pioneering community of Dripping Springs.
+                </p>
+              </div>
+            </div>
+            <div className="card">
+              <div className="p-6 bg-gradient-to-br from-white to-tan/10">
+                <div className="text-5xl mb-4">🏛️</div>
+                <h3 className="text-2xl font-bold mb-3 text-primary">Community Hub</h3>
+                <p className="text-gray-700">
+                  The Pound homestead served as a medical office, hospital, church, schoolhouse, post office, and gathering place for the entire community.
+                </p>
+              </div>
+            </div>
+            <div className="card">
+              <div className="p-6 bg-gradient-to-br from-white to-tan/10">
+                <div className="text-5xl mb-4">🤝</div>
+                <h3 className="text-2xl font-bold mb-3 text-primary">Respectful Founder</h3>
+                <p className="text-gray-700">
+                  Dr. Pound treated the local Native Americans with dignity and respect, earning protection and peace for the growing settlement.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -134,18 +152,18 @@ export default function Home() {
             {/* Text */}
             <div className="order-1 lg:order-2">
               <h2 className="text-3xl md:text-4xl rustic-heading mb-6">
-                About Pound Town, TX
+                Honoring Dr. Pound & Sarah
               </h2>
               <div className="h-1 w-16 bg-primary rounded mb-6"></div>
               <p className="text-lg text-gray-800 mb-6 leading-relaxed">
-                Pound Town honors the memory of Dr. Joseph and Sarah Pound, 
-                the founders of our beloved town. Dr. Pound was the earliest doctor 
-                in Hays County, and their home served as a medical office, hospital, 
-                church, schoolhouse, post office, and social gathering place.
+                Dr. Joseph and Sarah Pound were instrumental in founding what is now 
+                Dripping Springs, Texas. Their home became the heart of the community, 
+                serving multiple vital roles as the settlement grew.
               </p>
               <p className="text-gray-700 mb-8 leading-relaxed">
-                Through our unique gifts and merchandise, we celebrate the rich history 
-                and pioneer spirit that built this community.
+                Dr. Pound's legacy of compassion, service, and respect for all people 
+                defined the character of this region for generations to come. The movement 
+                to rename Dripping Springs to Pound Town celebrates their extraordinary contributions.
               </p>
               <Link href="/about" className="btn-primary inline-block">
                 Learn More About Our Mission

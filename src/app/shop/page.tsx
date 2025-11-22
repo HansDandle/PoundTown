@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'Shop Unique Gifts & Merch - Pound Town, Texas | Dripping Springs, TX',
-  description: 'Shop unique holiday gifts, exclusive merchandise, and local Texas gifts from Pound Town, Texas. Perfect presents for Christmas, birthdays, and special occasions in Dripping Springs, TX 78620.',
-  keywords: ['gifts', 'holiday gifts', 'Dripping Springs shopping', 'Texas gifts', 'unique presents', 'local merch'],
+  title: 'Pound Town Store - Support Dr. Pound\'s Legacy | Dripping Springs, TX',
+  description: 'Support the Pound Town legacy with our exclusive merchandise celebrating Dr. Joseph Pound and the history of Dripping Springs, Texas. Unique gifts and apparel from the Texas Hill Country.',
+  keywords: ['Pound Town', 'Dr. Pound', 'Dripping Springs merchandise', 'Texas Hill Country gifts', 'local apparel'],
 }
 
 export default function ShopPage() {
@@ -16,12 +16,12 @@ export default function ShopPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl rustic-heading mb-4">
-            Shop Unique Gifts
+            Pound Town Store
           </h1>
           <div className="inline-block h-1 w-24 bg-primary rounded mb-6"></div>
           <p className="text-xl text-gray-700 max-w-2xl mx-auto mb-8">
-            Exclusive merchandise and gifts from Pound Town, TX. 
-            Perfect for holidays, birthdays, and special occasions!
+            Exclusive merchandise celebrating Dr. Joseph Pound and the legacy 
+            of Dripping Springs, Texas. Every purchase honors his pioneering spirit.
           </p>
         </div>
 
@@ -47,10 +47,11 @@ export default function ShopPage() {
         {/* Store Link Card */}
         <div className="max-w-3xl mx-auto mb-12">
           <div className="bg-gradient-to-br from-primary via-secondary to-rust text-cream p-12 rounded-lg border-4 border-tan/30 shadow-2xl text-center">
-            <div className="text-6xl mb-6">🎁</div>
-            <h2 className="text-3xl font-bold mb-4">Visit Our Gift Shop</h2>
+            <div className="text-6xl mb-6">🏛️</div>
+            <h2 className="text-3xl font-bold mb-4">Support the Legacy</h2>
             <p className="text-lg mb-8 opacity-90">
-              Browse our full collection of unique Pound Town merchandise, apparel, and gifts
+              Wear and share Pound Town merchandise to celebrate Dr. Pound's extraordinary 
+              contributions to the Texas Hill Country
             </p>
             <a
               href={storeUrl}
