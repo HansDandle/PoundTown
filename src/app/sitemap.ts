@@ -29,6 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${baseUrl}/blog/genealogy-discovery-dr-pound`,
+      lastModified: new Date('2025-11-22'),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
       url: `${baseUrl}/blog/revamped-merch`,
       lastModified: new Date('2024-02-29'),
       changeFrequency: 'monthly',
