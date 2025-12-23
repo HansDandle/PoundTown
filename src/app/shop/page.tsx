@@ -65,6 +65,40 @@ export default function ShopPage() {
           </div>
         </div>
 
+        {/* Old Austin Merch Section */}
+        <div className="max-w-5xl mx-auto mb-12">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl rustic-heading mb-4">
+              Old Austin Merch
+            </h2>
+            <div className="inline-block h-1 w-16 bg-primary rounded mb-4"></div>
+          </div>
+          <a
+            href="https://old-austin.printful.me/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block rounded-lg border-4 border-tan/30 overflow-hidden shadow-xl hover:shadow-2xl transition-all hover:border-primary/50"
+          >
+            <Image
+              src="/images/oldaustin.png"
+              alt="Old Austin Merch"
+              width={1200}
+              height={800}
+              className="w-full h-auto"
+            />
+          </a>
+          <div className="text-center mt-6">
+            <a
+              href="https://old-austin.printful.me/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-primary text-cream hover:bg-secondary px-8 py-4 rounded-lg font-bold uppercase tracking-wider text-lg transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+            >
+              Shop Old Austin →
+            </a>
+          </div>
+        </div>
+
         {/* Features */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           <div className="bg-white p-6 rounded border-2 border-tan/30 text-center">
