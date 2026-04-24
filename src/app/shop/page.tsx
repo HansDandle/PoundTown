@@ -47,7 +47,15 @@ export default function ShopPage() {
         {/* Store Link Card */}
         <div className="max-w-3xl mx-auto mb-12">
           <div className="bg-gradient-to-br from-primary via-secondary to-rust text-cream p-12 rounded-lg border-4 border-tan/30 shadow-2xl text-center">
-            <div className="text-6xl mb-6">🏛️</div>
+            <div className="mb-6 flex justify-center">
+              <Image
+                src="/images/drpound.jpg"
+                alt="Dr. Joseph Pound"
+                width={120}
+                height={120}
+                className="rounded-full border-4 border-cream/50 shadow-lg object-cover"
+              />
+            </div>
             <h2 className="text-3xl font-bold mb-4">Support the Legacy</h2>
             <p className="text-lg mb-8 opacity-90">
               Wear and share Pound Town merchandise to celebrate Dr. Pound's extraordinary 
